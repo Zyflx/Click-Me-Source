@@ -2,7 +2,7 @@
 
 A dumb game I made about clicking a button.
 
-You can play the game [here](zyflx.neocities.org).
+You can play the game [here](https://zyflx.neocities.org).
 
 # Running the game loacally
 
