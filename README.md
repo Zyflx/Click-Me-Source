@@ -2,9 +2,11 @@
 
 A dumb game I made about clicking a button.
 
-# Running the game
+You can play the game [here](zyflx.neocities.org).
 
-You'll need to run this game through a local server to play it.
+# Running the game loacally
+
+If you want to play the game locally, you'll need to run it from a localhost.
 
 If you're using VS Code, you can use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
