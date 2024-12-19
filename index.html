@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Set some metadata stuff -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Load stylesheet -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Set document icon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- Set document title -->
+	<title>Click Me</title>
+</head>
+<body>
+	<!-- Setup game container -->
+	<div class="game-container">
+		<!-- Game title -->
+		<h1 id="title">Click Me: A stupid web game about clicking a button</h1>
+		<!-- Debug display -->
+		<div class="debug-display">
+			<!-- FPS (Frames Per Second)-->
+			<p id="fps-display"><span id="fps">0</span> FPS</p>
+			<!-- Current memory usage -->
+			<p id="memory-display">Memory: <span id="memory">0</span></p>
+		</div>
+		<!-- Click button -->
+		<button id="click-me-button">Click Me :]</button>
+		<!-- Click gain increase button -->
+		<button id="upgrade-button" style="display: none;">Increase Click Gain</button>
+		<!-- Next upgrade text -->
+		<p id="next-upgrade">Next upgrade at: 200 Clicks</p>
+		<!-- Click counter -->
+		<div class="click-counter">
+			<p id="counter">0</p>
+			<p id="click-text">Clicks</p>
+		</div>
+		<!-- Random text -->
+		<p id="random-text"></p>
+	</div>
+	<!-- Load script -->
+	<script type="module" src="main.js"></script>
+</body>
+</html>
