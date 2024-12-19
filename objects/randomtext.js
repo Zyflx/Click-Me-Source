@@ -47,7 +47,7 @@ class RandomText {
             "\"I wish someone would flirt with me...\" - Ragatha",
             "This game is powered by my non-existent will to live and my very little sanity.",
             "neocities the goat",
-            "source code soon i think"
+            "source code out bro https://github.com/Zyflx/Click-Me-Source"
         ];
         this.changeTimer = 0.0;
     }
